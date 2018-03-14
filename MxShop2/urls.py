@@ -18,7 +18,8 @@ from django.contrib import admin
 from django.views.static import serve
 import xadmin
 from MxShop2.settings import MEDIA_ROOT
-from goods.views_base import GoodsListView
+
+from goods.views import GoodsListView
 from rest_framework.documentation import include_docs_urls
 
 urlpatterns = [

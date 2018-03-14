@@ -139,3 +139,9 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+#restframework配置
+
+REST_FRAMEWORK = {
+    'PAGE_SIZE':10,
+}
